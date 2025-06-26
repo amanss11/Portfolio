@@ -4,7 +4,7 @@ function Navbar() {
     const tabs = ['about', 'resume', 'projects']
 
     return (
-        <nav className="sticky top-0 bg-[#1e1e1e] z-10 px-8 py-4 shadow-md rounded-b-xl">
+        <nav className="sticky top-0 bg-[#181818] z-10 px-8 py-4 shadow-sm rounded-t-xl border-gray-700">
             <ul className="flex gap-8 text-sm font-medium">
                 {tabs.map(tab => (
                     <NavLink

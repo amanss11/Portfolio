@@ -12,7 +12,7 @@ function App() {
   
   return (
     <>
-      <div className="flex h-screen overflow-hidden bg-black text-white p-4 gap-4">
+      <div className="flex h-screen overflow-hidden bg-black text-white p-4 gap-5">
 
         <div className="w-1/4 bg-[#1e1e1e] rounded-xl shadow-md p-4">
           <Sidebar />
