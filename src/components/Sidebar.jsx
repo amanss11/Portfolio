@@ -1,12 +1,11 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 
-
 function Sidebar() {
     return (
         <div className="flex flex-col items-center text-white p-6 space-y-6">
 
             <img
-                src="/profile.jpg" 
+                src="/profile.jpeg"
                 alt="Aman Shaikh"
                 className="w-40 h-40 object-cover rounded-xl border-2 border-yellow-500 shadow-md"
             />
@@ -42,7 +41,7 @@ function Sidebar() {
         
             <div className="flex items-start gap-4 text-2xl mt-18">
             <a
-                href="https://github.com/amans11"
+                href="https://github.com/amanss11"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-400 hover:text-white transition"
