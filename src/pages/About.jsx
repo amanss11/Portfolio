@@ -6,7 +6,7 @@ function About() {
 
             <section className="bg-[#2a2a2a] p-6 rounded-xl shadow-md">
                 <h1 className="text-2xl font-bold text-white mb-4">About Me</h1>
-                <p className="text-gray-300 mb-4 leading-relaxed text-sm">
+                <p className="text-gray-300 mb-4 leading-relaxed text">
                     I’m Aman Shaikh, a final-year B.E. Information Technology student at the International Institute of Information Technology, with a strong focus on modern web development.
                     I work primarily with React, Tailwind, Node.js, and MongoDB and emphasize clean UI, responsive design, and performance.
                     I’m actively seeking an internship or entry-level software development role where I can apply my skills, contribute to impactful projects, and grow as a developer.
@@ -20,7 +20,7 @@ function About() {
                     <AboutCard
                         icon="💻"
                         title="Frontend Development"
-                        description="Building clean, responsive UIs using React and Tailwind CSS."
+                        description="Building clean, responsive UIs using React.js and Tailwind CSS."
                     />
                     <AboutCard
                         icon="🛠️"
