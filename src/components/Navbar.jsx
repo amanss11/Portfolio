@@ -5,7 +5,7 @@ function Navbar() {
 
     return (
         <nav className="sticky top-0 bg-[#181818] z-10 px-8 py-4 shadow-sm rounded-t-xl border-gray-700">
-            <ul className="flex gap-8 text-sm font-medium">
+            <ul className="flex md:gap-8 md:justify-start justify-between text-sm font-medium">
                 {tabs.map(tab => (
                     <NavLink
                         key={tab}
