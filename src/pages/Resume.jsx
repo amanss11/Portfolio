@@ -55,8 +55,6 @@ function Resume() {
                         <span className="w-52 text-white font-semibold">Frontend Development:</span>
                         <div className="flex flex-wrap gap-2 text-gray-300 text-sm">
                             <span className="bg-[#232323] px-3 py-1 rounded">React.js</span>
-                            <span className="bg-[#232323] px-3 py-1 rounded">HTML5</span>
-                            <span className="bg-[#232323] px-3 py-1 rounded">CSS3</span>
                             <span className="bg-[#232323] px-3 py-1 rounded">Tailwind CSS</span>
                             <span className="bg-[#232323] px-3 py-1 rounded">Bootstrap</span>
                         </div>
