@@ -1,9 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
 function Sidebar() {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsOpen(true);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     // Always open on desktop
     const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768;
@@ -93,4 +102,3 @@ function Sidebar() {
 }
 
 export default Sidebar;
-  
